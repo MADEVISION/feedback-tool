@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="feedback-container">
+    <header>
+      <!-- Hier das austauschbare Logo einfügen -->
+      <img class="logo main-header" src="img/samlogo.png" alt="Logo">
+      <button class="close-button main-header">X</button>
+    </header>
+    <div class="top-section">
+            <div class="header-txt">
+              <h1>Deine Bewertung <br> ist uns wichtig!</h1>
+              <p id="subheading">Wir freuen uns immer über Feedback - <br> Bewerte uns und erhalte als Dankeschön ein Gratis-Angebot!</p>
+            </div>
+            <dir class="header-graph">
+              <img class="gift-box" src="img/gift-box.png" alt="Gift-box">
+              <div class="circle"></div>
+            </dir>
+    </div>
+    <div class="bottom-section">
+            <div class="scale">
+              <!-- <label for="rating">Wie zufrieden bist du mit unserem Service?</label> -->
+              <p id="rating-txt">Wie zufrieden bist du mit unserem Service?</p>
+              <div class="rating-boxes">
+                <div class="box" data-value="1">1</div>
+                <div class="box" data-value="2">2</div>
+                <div class="box" data-value="3">3</div>
+                <div class="box" data-value="4">4</div>
+                <div class="box" data-value="5">5</div>
+                <div class="box" data-value="6">6</div>
+                <div class="box" data-value="7">7</div>
+                <div class="box" data-value="8">8</div>
+                <div class="box" data-value="9">9</div>
+                <div class="box" data-value="10">10</div>
+              </div>
+            </div>
+            <div class="additional-info">
+              <!-- Texte unter dem Rechteck -->
+              <p class="add-info">Überhaupt nicht zufrieden</p>
+              <p class="add-info">Sehr zufrieden</p>
+            </div>
+            <button class="submit-button">Jetzt Bewertung absenden und Dankeschön-Angebot erhalten</button>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
